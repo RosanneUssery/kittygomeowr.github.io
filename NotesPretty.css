@@ -1,0 +1,79 @@
+
+	* {
+  		font-family: 'Georgia', 'Times', serif;
+  		border: 1px solid rgba(0,0,0,0.3);
+  		/* the border puts boxes around the elements*/
+  		background-color: rgb(0,0,0);
+  	}
+/* The asterisk is a universal selector*/
+	a {
+ 		color: SeaGreen;
+  		text-decoration: none;
+	}
+	h1 {
+		color: #7E0BE8;
+		background-color: rgba(123, 88, 9, 0.5);
+		background-color: rgb(123, 88, 9);
+		/*the rgba thing here does red green blue and then opacity*/
+		/*do both rgba and rgb for new/older browsers*/
+		word-spacing: 0.3em;
+		/* the default spacing is 0.25em, so changing that can make things better/worse*/
+		font-weight: bold;
+		/* this is either bold or normal */
+		/*Font weights can be set to 100 (thin), 200, 300, 400 (normal weight), 
+		500, 600, 700, 800, or 900 (bold).*/
+	}
+	h2 {
+		font-style: italic;
+		/*either italic or normal*/
+		text-transform: uppercase;
+		/* either uppercase or lowercase */
+		text-align: right;
+		/* can either be left, right, or center */
+		
+	}
+	p {
+		font-family: Playfair, Arial:
+		font-size: 12px;
+		/* the font size can either be px (pixels), em( the size of an m), or % */
+		line-height: 2em;
+		/* line-height is space between lines and is usually done in em*/
+	}
+	img {
+		border-radius: 100%;
+		letter-spacing: 0.3em;
+		/* letter-spacing is the kerning fixer */
+	}
+	#CheerfulMuse {
+		font-family: Garamond, serif;
+		text-transform: lowercase;	
+	}
+	/* Ids can label unique elements, but shouldn't be used as boxes or across the entire thing*/
+	
+	.pandawhimsy {
+		color: #4B0799;
+		border: 10px solid #00FFF3;
+		/* the border declarations can be shorthanded to just "border" with width-style-color order*/
+	}
+	/*classes can be used across the html to make things share the same style*/
+	/* using the element type (p.pandawhimsy) will affect the paragraph in particular
+	 using the element.class nomenclature */
+	 
+	 .boxeseverywhere {
+	 	min-width: 300px;
+	 	max-width: 600px;
+	 	min-height: 150px;
+	 	max-height; 300px;
+	 	overflow: scroll;
+	 	/* the overflow is either hidden or scroll, scroll adds a scrolly bar*/ 
+	 	border-style: groove;
+		border-width: 15px;
+		border-color: #FFF
+		border-radius: 12px
+		/* this makes the border corners curvy and rounded. Setting it to 100% makes a circle */
+	 }
+/* using backup fonts can keep the browser from going gross and let users without
+	the fonts installed view the content.*/
+/* These are declarations, they use a colon to define things and a semicolon to close */
+/* google fonts is a friend: https://fonts.google.com/ */
+/* adobe color thingie is also a friend: https://color.adobe.com/ */
