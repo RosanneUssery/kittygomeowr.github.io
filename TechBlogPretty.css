@@ -1,0 +1,55 @@
+body {
+  background-color: #CFD3D7;
+}
+
+.header {
+  display:scroll; /*this should be the thing to make it scroll*/
+  position: fixed; /*this should be the thing to keep it in place*/
+  z-index:2000;
+  top:0; 
+  overflow:hidden;
+  height:50px;
+  border:1px solid #CCC;
+  margin:0px auto;
+  width:100%;
+  text-align: center;
+  background-color:#336DA4;
+  font-family:'Inknut+Antiqua', Serif;
+  
+}
+
+.text {
+  background-color:#B2D0EC;
+  margin: 0px auto;
+  width:1234px auto;
+  border: 1px solid black;
+  height: 500px;
+  margin-top:40px; /*This should be the thing to keep the text from hiding under the header when it's in the top position*/
+  padding: 40px;
+}
+
+.anchor {
+    position: absolute;/*This lets the internal links work*/ 
+    margin: -4.15em;
+ }
+
+.box1 {
+   	border:1px solid gray;
+}
+
+.box2 {
+  	border: 1px solid gray;
+  
+}
+
+.box3 {
+	background-color:silver;
+ /* margin-left: -40px;
+  margin-right: -5px;
+  width: 1232px;*/
+}
+
+.proimg {
+	border-radius: 100%
+	height: 300px
+}
