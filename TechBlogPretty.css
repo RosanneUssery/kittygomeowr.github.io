@@ -19,10 +19,10 @@ body {
 }
 
 .text {
-  background-color:#B2D0EC;
+/*  background-color:#B2D0EC;*/
   margin: 0px auto;
   width:1234px auto;
-  border: 1px solid black;
+/*  border: 1px solid black;*/
   height: 500px;
   margin-top:40px; /*This should be the thing to keep the text from hiding under the header when it's in the top position*/
   padding: 40px;
@@ -35,6 +35,7 @@ body {
 
 .box1 {
    	border:1px solid gray;
+   	overflow: scroll;
 }
 
 .box2 {
@@ -50,6 +51,6 @@ body {
 }
 
 .proimg {
-	border-radius: 100%
-	height: 300px
+	border-radius: 100%;
+	height: 300px;
 }
