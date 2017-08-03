@@ -3,19 +3,18 @@ body {
 }
 
 .header {
-	display:scroll; /*this should be the thing to make it scroll*/
+	display: scroll; /*this should be the thing to make it scroll*/
 	position: fixed; /*this should be the thing to keep it in place*/
-	z-index:2000;
-	top:0; 
-	overflow:hidden;
-	height:100px;
-	border:1px solid #CCC;
-	margin:0px auto;
-	width:100%;
+	z-index: 2000;
+	top: 0; 
+	overflow: hidden;
+	height: 100px;
+	border: 1px solid #CCC;
+	margin: 0px auto;
+	width: 100%;
 	text-align: center;
-	background-color:#336DA4;
-	font-family:'Inknut+Antiqua', Serif;
-  
+	background-color: #336DA4;
+	font-family: 'Inknut+Antiqua', Serif; 
 }
 
 .text {
@@ -54,5 +53,7 @@ h1 {
 
 .proimg {
 	border-radius: 100%;
+	border-color: 0,0,0;
 	height: 300px;
+	float: left;
 }
