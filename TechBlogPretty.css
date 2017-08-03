@@ -1,31 +1,33 @@
 body {
-  background-color: #CFD3D7;
+	background-color: #CFD3D7;
 }
 
 .header {
-  display:scroll; /*this should be the thing to make it scroll*/
-  position: fixed; /*this should be the thing to keep it in place*/
-  z-index:2000;
-  top:0; 
-  overflow:hidden;
-  height:50px;
-  border:1px solid #CCC;
-  margin:0px auto;
-  width:100%;
-  text-align: center;
-  background-color:#336DA4;
-  font-family:'Inknut+Antiqua', Serif;
+	display:scroll; /*this should be the thing to make it scroll*/
+	position: fixed; /*this should be the thing to keep it in place*/
+	z-index:2000;
+	top:0; 
+	overflow:hidden;
+	height:100px;
+	border:1px solid #CCC;
+	margin:0px auto;
+	width:100%;
+	text-align: center;
+	background-color:#336DA4;
+	font-family:'Inknut+Antiqua', Serif;
   
 }
 
 .text {
-/*  background-color:#B2D0EC;*/
-  margin: 0px auto;
-  width:1234px auto;
-/*  border: 1px solid black;*/
-  height: 500px;
-  margin-top:40px; /*This should be the thing to keep the text from hiding under the header when it's in the top position*/
-  padding: 40px;
+	margin: 0px auto;
+	width:1234px auto;
+	height: 500px;
+	margin-top:40px; /*This should be the thing to keep the text from hiding under the header when it's in the top position*/
+	padding: 40px;
+}
+
+h1 {
+	text-align: center;
 }
 
 .anchor {
