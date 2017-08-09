@@ -37,15 +37,19 @@ h1 {
 .box1 {
    	border:1px solid gray;
    	overflow: scroll;
+   	padding: 15px;
 }
 
 .box2 {
   	border: 1px solid gray;
+  	padding: 15px;
+  	overflow: scroll;
   
 }
 
 .box3 {
 	background-color:silver;
+	padding: 15px;
  /* margin-left: -40px;
   margin-right: -5px;
   width: 1232px;*/
@@ -56,4 +60,5 @@ h1 {
 	border-color: 0,0,0;
 	height: 300px;
 	float: left;
+	padding: 15px;
 }
