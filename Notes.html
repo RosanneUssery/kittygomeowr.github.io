@@ -60,6 +60,22 @@
 			<li>hidden or none - no border.</li>
 		</ul>
 		<p> Border widths (in addition to being denoted in px) can also be thin, medium, thick, but is usually in px. They can also be modified to have different widths (in px) around the box (clockwise: top, right, bottom, left). Finally, they can also use border-top-width/border-right-width/border-bottom-width/border-left-width to modify the borders more specifically.</p>
+		<p> When doing padding, it can either be done equally on all sides (eg padding: 30px), or with different values around (clockwise from the top), or top/bottom and left/right (eg padding: 30px 10px). You can also specify with: padding-top, padding-right, padding-bottom, padding-left. </p>
+		<p> Margins dictate how much space is on the outside of the box (preventing other elements from coming within a certain amount of that element). The same conventions apply to margins as padding and borders. Margins also have an "auto" property that centers the object on the page and relative to its container. The width must be dictated for this element, otherwise it'll just take up the entire page/container.</p>
+		<p> In order to set the default css to "blank" and override the default/user agent stylesheets, use this code: * {
+  							margin: 0;
+						  	padding: 0;
+							}</p>
+		<p> In-line and block-elements behave differently, in that line-elements behave link links and block-elements to behave like divs. From the course: Inline elements are elements that display inline with text, without disrupting the flow of the text (like links). Block-level elements are those elements that use an entire line of space in a web page and disrupt the natural flow of text. Most of the common HTML elements are block-level elements (headings, paragraphs, divs, and more).</p>
+		<p> The display property can take on one of four values:</p>
+		<ul>
+			<li> inline - causes block-level elements (like a div) to behave like an inline element (like a link).</li>
+			<li> block - causes inline elements (like a link) to behave like a block element (like a div).</li>
+			<li> inline-block - causes block-level elements to behave like an inline element, but retain the features of a block-level element.</li>
+			<li>none - removes an element from view. The rest of the web page will act as if the element does not exist.</li>
+		</ul>
+		<p> Hiding elements is fun and can be done using the "visibility" property. The values for this can be either hidden or visible. 				
+		
 	</div>
 	
 </body>

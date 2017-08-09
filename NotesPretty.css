@@ -73,6 +73,8 @@
 		border-color: #FFF
 		border-radius: 12px
 		/* this makes the border corners curvy and rounded. Setting it to 100% makes a circle */
+		padding: 15px
+		/* this makes the space between the border and content more
 	 }
 /* using backup fonts can keep the browser from going gross and let users without
 	the fonts installed view the content.*/
