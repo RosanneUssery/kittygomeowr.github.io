@@ -6,6 +6,12 @@
   		background-color: #FEFFFE;
   	}
 /* The asterisk is a universal selector*/
+	body {
+		background-image: url("/wood.jpg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-attachment: scroll;
+	}
 	a {
  		color: SeaGreen;
   		text-decoration: none;
@@ -38,13 +44,17 @@
 		/* the font size can either be px (pixels), em( the size of an m), or % */
 		line-height: 2em;
 		/* line-height is space between lines and is usually done in em*/
+		letter-spacing: 0.3em;
+		/* letter-spacing is the kerning fixer */
 	}
 	img {
 		border-radius: 100%;
-		letter-spacing: 0.3em;
 		width: 200px;
 		height: 150px;
-		/* letter-spacing is the kerning fixer */
+		display: block;
+		/* display: block makes the image function like a block element, which means it can be aligned*/
+		margin: 0px auto;
+		/*margin: auto makes the image center because it sets the exact amount to center it on the page*/
 	}
 	#CheerfulMuse {
 		font-family: Garamond, serif;
@@ -58,7 +68,7 @@
 		/* the border declarations can be shorthanded to just "border" with width-style-color order*/
 	}
 	/*classes can be used across the html to make things share the same style*/
-	/* using the element type (p.pandawhimsy) will affect the paragraph in particular
+	/* using the element type (p.) will affect the paragraph in particular
 	 using the element.class nomenclature */
 	 
 	 .boxeseverywhere {

@@ -46,6 +46,7 @@
 			<li>Thumbtacks</li>
 			<li>Ungents</li>
 		</ul>
+		</div>
 		<h2 id = "cheerfulmuse">Borders are neat!</h2>
 		<p>Border Styles have the following types:</p>
 		<ul>
@@ -74,9 +75,31 @@
 			<li> inline-block - causes block-level elements to behave like an inline element, but retain the features of a block-level element.</li>
 			<li>none - removes an element from view. The rest of the web page will act as if the element does not exist.</li>
 		</ul>
-		<p> Hiding elements is fun and can be done using the "visibility" property. The values for this can be either hidden or visible. 				
+		<p> Hiding elements is fun and can be done using the "visibility" property. The values for this can be either hidden or visible.</p>
+		<p> Box positioning can be done with position: static, relative, absolute, or fixed. </p>
+		<p>Position:relative can make it so that it can be positioned relative to the main box (with top, right, bottom, left, etc with px, em, or percentages as position measurements). Relative must be used to make this work though.</p>				
+		<p>Position: absolute will make the other elements on the page ignore this element and move as if it's not there.</p>
+		<p>Position: fixed will make the object stick to where it is.</p>
+		<p>Z-index makes it so that the elements interact with each other buy being on top or on bottom of each other. The measurements are in integers.</p>
+		<p>Float is either right or left and makes the element either... right or left. Surprising. These elements must have a width set. This also works for images.</p>
+		<p>Clear sets up how objects should interact with each other on the page and what they do when they collide. The properties are left, right, both, and none.</p>
+		<p>When doing background images, they can be set to repeat a certain way. Repeat is the default, it will repeat on both the x and y axis. Repeat-x and repeat-y do that, but only on the specified axis. No-repeat does what it says on the tin.</p>
+		<p>When images don't repeat, they can be set up to be aligned on a 3x3 grid. The grid positions are:
+		<ul>
+			<li>left top - top left corner of the element's box.</li>
+			<li>center top - top center of the element's box.</li>
+			<li>right top - top right corner of the element's box.</li>
+			<li>left center - left column, center row.</li>
+			<li>center center - the center of the element's box.</li>
+			<li>right center - right column, center row.</li>
+			<li>left bottom - bottom left corner of the element's box.</li>
+			<li>center bottom - bottom center of the element's box.</li>
+			<li>right bottom - bottom right corner of the element's box.</li>
+		</ul>	
+		<p> All of these properties can be declared under the "background" property to make things easier and cleaner. </p>
+		<p>Background-size works to size the image to the size of the div or container. Its values are either cover or contain. Cover covers the entire div, contain letterboxes it. Background-attachment says how the images moves. It's either fixed or scroll. </p>
+		<p>Images can also be gradients, and use -webkit-linear-gradient() to make the gradient work with two hexcode colors placed within the parentheses.</p>
 		
-	</div>
-	
-</body>
+					
+	</body>
 </html>
