@@ -1,5 +1,10 @@
+* {
+	box-sizing: border-box;
+} /*this makes it so that the boxes account for the borders/margins/etc and don't go weird*/
+
 body {
 	background-color: #CFD3D7;
+	background-image: -webkit-linear-gradient(#77C3FF #5B94C2) 
 }
 
 .header {
@@ -37,7 +42,7 @@ h1 {
 .box1 {
    	border:1px solid gray;
    	overflow: scroll;
-   	padding: 15px;
+   	padding: 50px 15px;
 }
 
 .box2 {
