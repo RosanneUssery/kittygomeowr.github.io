@@ -4,7 +4,7 @@
 
 body {
 	background-color: #CFD3D7;
-	background-image: -webkit-linear-gradient(#77C3FF #5B94C2) 
+	background-image: -webkit-linear-gradient(#77C3FF #5B94C2); 
 }
 
 .header {
@@ -26,7 +26,7 @@ body {
 	margin: 0px auto;
 	width:1234px auto;
 	height: 500px;
-	margin-top:40px; /*This should be the thing to keep the text from hiding under the header when it's in the top position*/
+	margin-top:70px; /*This should be the thing to keep the text from hiding under the header when it's in the top position*/
 	padding: 40px;
 }
 
@@ -42,7 +42,8 @@ h1 {
 .box1 {
    	border:1px solid gray;
    	overflow: scroll;
-   	padding: 50px 15px;
+   	padding: 75px 15px;
+   	margin: 75px; /*sorted this here to add more buffer around, we'll see if it helps*/
 }
 
 .box2 {
