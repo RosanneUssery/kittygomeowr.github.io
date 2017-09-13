@@ -26,7 +26,7 @@ body {
 	margin: 0px auto;
 	width:1234px auto;
 	height: 500px;
-	margin-top:70px; /*This should be the thing to keep the text from hiding under the header when it's in the top position*/
+	margin-top:90px; /*This should be the thing to keep the text from hiding under the header when it's in the top position*/
 	padding: 40px;
 }
 

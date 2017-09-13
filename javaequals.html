@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Equality in Java</title>
+	<link href="/QuestionsPretty.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<h1>When would you use ‘=’ vs ‘==’ vs ‘.equals’? Explain what each of these does and in which cases you should use them.</h1>
+
+<p> = is used as a declaration and doesn't do much except to say what a thing is (e.g. x = 10). It doesn't provide an actual function other than definition. 
+
+<p>== compares the shallow values of the variable and are only useful if they point to the same memory location. You would use this in the case of trying to determine whether they are pointing to the same location depending on input. </p>
+
+<p>In order to test Strings, however, you must use the .equals method. .equals is used to compare one String to another to find out if they're the same. The not operator (!) must be used with .equals to compare the string and find out if they are different. </p>
+
+</body>
+</html>
