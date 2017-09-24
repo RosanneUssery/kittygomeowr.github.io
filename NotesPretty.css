@@ -83,8 +83,13 @@
 		border-radius: 12px
 		/* this makes the border corners curvy and rounded. Setting it to 100% makes a circle */
 		padding: 15px
-		/* this makes the space between the border and content more
+		/* this makes the space between the border and content more*/
 	 }
+	 
+	 table, td {
+	 	border: 1px solid black;
+	 }
+	 
 /* using backup fonts can keep the browser from going gross and let users without
 	the fonts installed view the content.*/
 /* These are declarations, they use a colon to define things and a semicolon to close */
