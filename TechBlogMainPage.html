@@ -15,9 +15,6 @@
  <div class="header">
    <h1><b>Rosanne Ussery</b></h>
 <!--Todo: 
-1) Put padding/border around the photo 
-2) Develop stylesheet for other pages
-3) Answer questions on other pages, link and update 
 4) Change colors and add depth to box 1-3
 5) add contact form to box 3
 6) Narrow the size of the page, make the button links jump better
@@ -34,7 +31,6 @@
     	<h1>Nice to meet you!</h1>
     	<img src = "https://kittygomeowr.github.io/2017-08-01%2015.58.09%20HDR.jpg" alt = "Rosanne's pic" class = "proimg" />
 		<p>I am studying to be an IT professional specializing in full stack development. I am attending <a href = "http://skilldistillery.com/" target = "blank">Skill Distillery</a> to learn the skills I need to get ahead in a new career.</p>
-		<p>For the past fifteen years, I have worked in law enforcement, first as an officer then as a dispatcher. I found that while I enjoy the ability to help people and to provide a service for the community, the working environment no longer represented my values or what I wanted to do with my life. </p>
 		<p>Programming appealed to me because I enjoy learning how spoken languages work, and from what I have seen of programming languages, I am excited to learn more of their  symmetry. I am finding that programming languages are beautiful ways of speaking to the world and translating tools into user experiences.</p>
 		<p>My goal is to become a lifetime learner and an expert in my field. I want to learn how to craft elegant solutions to problems and find new ways to develop the online world. I am excited to learn new things and to grow as a person. I would also like to leverage my master's degree in creative writing to be able to not only program, but also create easy to understand guides to processes and protocols. I can definitely see myself being both a tech writer and a programmer.</p>
 		</p>I have always enjoyed peeling back the curtain to see how things work. Being able to manipulate the software universe and build new and beautiful things appeals to me, especially since the tools are there for the taking. Languages are arcane, but they are not unapproachable for people who have a grasp of logic and symmetry. I believe I am one of those people and I am looking forward to seeing what I can learn and accomplish as a computer programmer.</p> 
@@ -43,18 +39,38 @@
     <div class="anchor" id="portfolio"></div>
     <h1>Here's what I've learned so far!</h1>
     <ul>
-    	<li><a href = "/switchifelse.html">What is the difference between ‘switch’ and ‘if/else’? When would you use one versus the other?</a></li>
-		<li><a href = "/javaequals.html">When would you use ‘=’ vs ‘==’ vs ‘.equals’? Explain what each of these does and in which cases you should use them.</a></li>
-		<li><a href = "/randommath.html">To generate a random number you use ‘Math.random()’. What is ‘Math’? What is the return type of the ‘.random()’ method. Why is the ‘M’ in ‘Math’ capitalized?</a></li>
-		<li><a href = "/castingdoubles">What does it mean to ‘cast a double to an int’? Give an example of when you would do this and explain what is happening.</a></li>
-		<li><a href = "/dowhile"> What is the difference between a ‘for’, ‘while’ and ‘do while’ loop? Give an example of when you would use one versus another. What is the benefit of a ‘do while’ over a ‘while’?</a></li>
+    	<li><a href = "/switchifelse.html" target = "blank">What is the difference between ‘switch’ and ‘if/else’? When would you use one versus the other?</a></li>
+		<li><a href = "/javaequals.html" target = "blank">When would you use ‘=’ vs ‘==’ vs ‘.equals’? Explain what each of these does and in which cases you should use them.</a></li>
+		<li><a href = "/randommath.html" target = "blank">To generate a random number you use ‘Math.random()’. What is ‘Math’? What is the return type of the ‘.random()’ method. Why is the ‘M’ in ‘Math’ capitalized?</a></li>
+		<li><a href = "/castingdoubles" target = "blank">What does it mean to ‘cast a double to an int’? Give an example of when you would do this and explain what is happening.</a></li>
+		<li><a href = "/dowhile" target = "blank"> What is the difference between a ‘for’, ‘while’ and ‘do while’ loop? Give an example of when you would use one versus another. What is the benefit of a ‘do while’ over a ‘while’?</a></li>
 	</ul>
 	<p>(Unless otherwise stated, all answers are sourced from the Java the Hard Way text)</p>
   </div>
   <div class="box3">
    <div class="anchor" id="contact"></div>
   <h1>Contact me!</h1>
-  
+  	<div class = "input">
+ 		<form action="/action_page.php">
+    		<label for="fname">First Name</label>
+    		<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    		<label for="lname">Last Name</label>
+    		<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    		<label for="email">Email Address</label>
+    		<input type="text" id="email" name="emailaddy" placeholder="Your email address..">
+
+	    	<label for="country">Favorite Monochrome Animal</label>
+	    	<select id="country" name="country">
+    			<option value="australia">Penguin</option>
+    	  		<option value="canada">Panda</option>
+    	  		<option value="usa">Cow</option>
+    		</select>
+	    	<input type="submit" value="Submit">
+  		</form>
+	</div>
+
 <!--Below are links/buttons/icons for social media. Yay!-->
   <button class="btn-lg"><a href="https://twitter.com/RosanneUssery" target = "blank"><i class="fa fa-twitter-square" aria-hidden="true"> Twitter</i></a></button>
   <button class="button"><a href="https://github.com/kittygomeowr" target = "blank"><i class="fa fa-github"> Github</i></a></button>
