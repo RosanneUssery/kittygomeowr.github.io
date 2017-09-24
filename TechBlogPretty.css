@@ -42,8 +42,8 @@ h1 {
 .box1 {
    	border:1px solid gray;
    	overflow: scroll;
-   	padding: 75px 15px;
-   	margin: 75px; /*sorted this here to add more buffer around, we'll see if it helps*/
+   	padding: 75px 15px 15px 15px;
+   	margin: 75px 15px 15px 15px; /*sorted this here to add more buffer around, we'll see if it helps*/
 }
 
 .box2 {
